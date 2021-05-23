@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Remedies</title>
+
+  <style>
+    .main {
+      background: rgba(0, 0, 0, 0.5) url(Img/natural_remedies.jpg) no-repeat center center;
+
+      /*-webkit-background-size: cover;
+           /*-moz-background-size: cover;
+           /*-o-background-size: cover;*/
+
+      background-size: 135.0vw;
+      background-position: top;
+      background-blend-mode: darken;
+
+
+      scroll-behavior: smooth;
+
+    }
+
+    header {
+
+      position: -webkit-sticky;
+      position: -moz-sticky;
+      position: -o-sticky;
+      position: -ms-sticky;
+      position: sticky;
+      top: 0;
+
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      -o-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+
+    /*section intro*/
+
+
+
+    .intro h1 {
+      font-size: 10vw;
+      font-style: bold italic;
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      padding-top: 6%;
+      padding-left: 35%;
+
+    }
+
+    .intro p {
+      font-size: 3.5vw;
+      font-style: bold italic;
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      padding-top: 3px;
+      padding-left: 35%;
+    }
+
+    /*section des*/
+
+    .des {
+      color: white;
+      justify-content: center;
+      align-items: center;
+      font-size: 3vw;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding-top: 4.5rem;
+      padding-bottom: 5vh;
+      padding-left: 5rem;
+      margin-left: 5%;
+      margin-right: 5%;
+
+
+
+    }
+  </style>
+
+
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar h-nav-resp" id="navbar">
+    <div class="navbox">
+
+      <span>
+        <img class="logo" src="Img/logo.jpg">
+      </span>
+      <ul class="nav-list">
+        <li class="item ">
+          <a href="index.html#home">Home</a>
+        </li>
+        <li class="item ">
+          <a href="#features">Categories</a>
+        </li>
+        <li class="item ">
+          <a href="#tip" onclick="tip()">Tips</a>
+        </li>
+        <li class="item ">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="sch v-class">
+      <form class="sform" name="newForm" method="get" onsubmit="formAction(this)">
+        <input id="search-input" class="Search" type="text" name="q" list="content" placeholder="search here..." />
+
+        <input class="Searchbtn" type="submit" name="search" value="Search">
+        </input>
+        <datalist id="content" class="d-list">
+
+        </datalist>
+
+      </form>
+    </div>
+
+    <div class="search-burger">
+      <i class="icon fa fa-search"></i>
+    </div>
+
+  </nav>
+
+  <section class="main" id="home">
+    <div class=intro>
+      <h1>Natural Home Remedies</h1>
+      <p>Know what precautions you can take at home by using nature..</p>
+      <p></p>
+    </div>
+
+
+    <div class="des">
+      <div>
+        <p>
+          Information for home remedies related to:
+        </p>
+        <ul>
+          <li>Disease</li>
+          <li>And some health tips(Bonus tip: Tap on "Tips" in navigation bar and get new tips..)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="rem">
+    <div>
+      <h1 class="f-heading" id=""></h1>
+    </div>
+
+    <! Heart>
+      <div class="f-content heart" id="heart">
+
+        <div class="f-des good-bad">
+          <p>Heart</p>
+          <div class="gb">
+            <u>Good for Heart:</u>
+            <ul>
+              <li> Leafy Green Vegetables</li>
+              <li> Whole Grains</li>
+              <li> Berries</li>
+              <li>Avocados</li>
+              <li>Fatty Fish and Fish Oil</li>
+              <li> Walnuts</li>
+              <li> Beans</li>
+              <li> Dark Chocolate</li>
+              <li>Tomatoes</li>
+              <li> Almonds</li>
+              <li> Garlic</li>
+              <li>Olive Oil</li>
+              <li>Green Tea</li>
+            </ul>
+          </div>
+
+          <div class="gb">
+            <u>Bad for Heart:</u>
+            <ul>
+              <li>Smoking Cigarette</li>
+              <li>Baked Goods</li>
+              <li>Soda</li>
+              <li>Red Meat</li>
+              <li>White Rice</li>
+              <li>Bread</li>
+              <li>Pasta</li>
+              <li>Pizza</li>
+              <li>Butter</li>
+              <li>Flavored, Full-Fat Yogurt</li>
+              <li>French Fries</li>
+              <li>Alcohol</li>
+              <li>Ice-cream</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+        <! skin>
+          <div class="f-content skin" id="skin">
+
+            <div class="f-des good-bad">
+              <p>Skin</p>
+              <div class="gb">
+                <u>Good for Skin:</u>
+                <ul>
+                  <li> Fatty fish</li>
+                  <li> Avocados</li>
+                  <li> Walnuts</li>
+                  <li> Sunflower seeds </li>
+                  <li> Sweet potatoes</li>
+                  <li> Broccoli</li> 
+                  <li> Tomatoes</li>
+                  <li> Dark Chocolate</li>
+                  <li> Tomatoes</li>
+                  <li> Turmeric</li>
+                  <li>Green Tea</li>
+                  <li> Aloe Vera</li>
+                </ul>
+              </div>
+
+              <div class="gb">
+                <u>Bad for Skin:</u>
+                <ul>
+                  <li>Refined Grains and Sugars</li>
+                  <li>Dairy Products</li>
+                  <li>Fast Food</li>
+                  <li>Chocolate</li>
+                  <li>Whey Protein Powder</li>
+                  <li> Foods You’re Sensitive To</li>
+                  
+
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <! kidney>
+      <div class="f-content kidney" id="kidney">
+
+        <div class="f-des good-bad">
+          <p>Kidney</p>
+          <div class="gb">
+            <u>Good for Kidney:</u>
+            <ul>
+              <li> Cauliflower</li>
+              <li> Blueberries</li>
+              <li> Egg whites</li>
+              <li> Garlic</li>
+              <li>Olive oil</li>
+              <li>  Cabbage</li>
+              <li> Onions</li>
+              <li> Radish</li>
+              <li> Pineapple</li>
+              <li> Cranberries</li>
+              <li> Shiitake mushrooms</li>
+              <li>Drinking 3 liters of water daily </li>
+            </ul>
+          </div>
+
+          <div class="gb">
+            <u>Bad for Kidney:</u>
+            <ul>
+              <li> Dark-colored soda</li>
+              <li>Avocados</li>
+              <li> Whole wheat bread</li>
+              <li>Brown rice</li>
+              <li>White Rice</li>
+              <li>Dairy products </li>
+              <li> Oranges</li>
+              <li>Processed meats</li>
+              <li>Potatoes and sweet potatoes</li>
+              <li>Tomatoe</li>
+              <li>Not Drinking Enough Water</li>
+              <li>Drinking Alcohol in Excess </li>
+    
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+      <! Lungs>
+      <div class="f-content lungs" id="lungs">
+
+        <div class="f-des good-bad">
+          <p>Lungs</p>
+          <div class="gb">
+            <u>Good for Lungs:</u>
+            <ul>
+              <li> Beets and beet greens</li>
+              <li> Peppers</li>
+              <li> Apples</li>
+              <li> Pumpkin</li>
+              <li> Turmeric</li>
+              <li> Tomato and tomato products</li>
+              <li>Blueberries</li>
+              <li>Green tea</li>
+              <li>Olive Oil</li>
+              <li> Oysters</li>
+              <li> Yogurt</li>
+              <li>Coffee</li>
+              <li>Barley</li>
+            </ul>
+          </div>
+
+          <div class="gb">
+            <u>Bad for Lungs:</u>
+            <ul>
+              <li>Smoking Cigarette</li>
+              <li>Fried Foods</li>
+              <li>Excessive Salt</li>
+              <li>Dairy Products</li>
+              <li>Cruciferous Vegetables</li>
+              <li>Carbonated Beverage</li>
+              <li> Acidic Foods and Drinks</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+      <! Diabetes>
+      <div class="f-content diabetes" id="diabetes">
+
+        <div class="f-des good-bad">
+          <p>Diabetes</p>
+          <div class="gb">
+            <u>Good for Diabetes:</u>
+            <ul>
+              <li> Fatty Fish</li>
+              <li> Leafy green vegetables</li>
+              <li> Eggs</li>
+              <li> Avocados</li>
+              <li> Nuts</li>
+              <li> Broccoli</li>
+              <li> Beans</li>
+              <li>Extra-Virgin Olive Oil</li>
+              <li>Apple cider vinegar</li>
+              <li>Strawberries</li>
+              <li> Garlic</li>
+              
+            </ul>
+          </div>
+
+          <div class="gb">
+            <u>Bad for Diabetes:</u>
+            <ul>
+              <li>Sugar-sweetened beverages</li>
+              <li>White bread</li>
+              <li>Rice</li>
+              <li>Pasta</li>
+              <li>Flavored coffee drinks</li>
+              <li>Honey</li>
+              <li> Dried fruit</li>
+              <li>French fries</li>
+              <li>Flavored, Full-Fat Yogurt</li>
+              
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+      <!Teeth>
+      <div class="f-content teeth" id="teeth">
+
+        <div class="f-des good-bad">
+          <p>Teeth</p>
+          <div class="gb">
+            <u>Good for Teeth:</u>
+            <ul>
+              <li> 	Milk</li>
+              <li> Yogurt</li>
+              <li> Cheese</li>
+              <li> Water</li>
+              <li>	Carrots</li>
+              <li> Broccoli</li>
+              <li> Onions</li>
+              <li> Sugar-free gum and candy</li>
+              <li> Leafy Greens</li>
+              <li>Apples</li>
+              <li> Shiitake mushrooms</li>
+              <li>Strawberries </li>
+            </ul>
+          </div>
+
+          <div class="gb">
+            <u>Bad for Teeth:</u>
+            <ul>
+              <li> Sour Candies</li>
+              <li> Bread</li>
+              <li> Alcohol</li>
+              <li>Carbonated Drinks </li>
+              <li>Ice</li>
+              <li>Citrus</li>
+              <li>Potato Chips</li>
+              <li>Dried Fruits</li>
+              <li>Tulsi</li>
+    
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+      <!Hair>
+      <div class="f-content hair" id="hair">
+
+        <div class="f-des good-bad">
+          <p>Hair</p>
+          <div class="gb">
+            <u>Good for Hair:</u>
+            <ul>
+              <li> Aloe vera</li>
+              <li> Coconut oil</li>
+              <li> Fish oil</li>
+              <li> Onion juice</li>
+              <li> Lemon</li>
+              <li> Egg</li>
+              
+            </ul>
+          </div>
+
+          <div class="gb">
+            <u>Bad for Hair:</u>
+            <ul>
+              <li> Diat Soda</li>
+              <li> Sugar</li>
+              <li> Fast Food</li>            
+    
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+      <!Digestion>
+      <div class="f-content digestion" id="digestion">
+
+        <div class="f-des good-bad">
+          <p>Digestion</p>
+          <div class="gb">
+            <u>Good for Digestion:</u>
+            <ul>
+              <li>Apples</li>
+              <li> Yogurt</li>
+              <li> Papaya</li>
+              <li>Whole Grains</li>
+              <li>Beets</li>
+              <li>Ginger</li>
+              <li>Bone Broth</li>
+              <li> Banana</li>
+              <li> Leafy Greens</li>
+
+            </ul>
+          </div>
+
+          <div class="gb">
+            <u>Bad for Digestion:</u>
+            <ul>
+              <li> Dairy Products</li>
+              <li> Acidic Foods</li>
+              <li> Spicy Foods</li>
+              <li> Artificial Sugar </li>
+              <li>Fried Foods</li>
+              <li>Citrus</li>
+              <li>Bread</li>
+              <li>Meat</li>
+    
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+      <!Liver>
+      <div class="f-content liver" id="liver">
+
+        <div class="f-des good-bad">
+          <p>Liver</p>
+          <div class="gb">
+            <u>Good for Liver:</u>
+            <ul>
+              <li>Coffee</li>
+              <li> Tea</li>
+              <li> Grapefruit</li>
+              <li>Blueberries and cranberries</li>
+              <li>Prickly pear</li>
+              <li>Cruciferous vegetables</li>
+              <li>Nuts</li>
+              <li>Fatty fish</li>
+              <li> Olive oil</li>
+
+            </ul>
+          </div>
+
+          <div class="gb">
+            <u>Bad for Liver:</u>
+            <ul>
+              <li>Alcohol</li>
+              <li>Added sugar</li>
+              <li> Fried foods</li>
+              <li> Salt </li>
+              <li>White bread</li>
+              <li>Rice</li>
+              <li>Pasta</li>
+              <li>Red meat</li>
+    
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+
+
+  </section>
+
+
+  <section class="contact" id="contact">
+
+    <form class="fitem" action="form.php" method="POST">
+      <div class="heading">Contact</div>
+      <div class="pform">Name</div>
+      <div class="finput"><input type="text" name="name" required></div>
+      <div class="pform">Email</div>
+      <div class="finput"> <input type="email" name="email" required> </div>
+      <div class="pform">Phone</div>
+      <div class="finput"><input type="tel" pattern="[0-9]{10,12}" name="phone" required></div>
+      <div class="pform">Feedback</div>
+      <div class="finput "><textarea class="feedback" rows="4" cols="50" name="feedback" placeholder="Write feedback.."
+          required></textarea> </div>
+      <div class="finput b"><input class="btn" type="submit" name="submit"  value="Submit" /></div>
+
+
+    </form>
+  </section>
+
+  <div class="dtip">
+    <p class="tip">Tip for the day:
+      <span id=tip class="tipc" value=""> Eat healthy.. Do healthy.. Be healthy.. </span>
+    </p>
+  </div>
+
+  
+  <script src="main.js"></script>
+</body>
+
+</html>

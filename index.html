@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Welcome to Health Junkie. We provide you a good info  of Food, Exercise and Nautural Remedies">
+  <meta name="keywords" content="Food info, Food information, Exercise info, exercise information, Home Remedies">
+  <meta name="author" content="Himanshu Patil">
+
+  <title>Health Junkie</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+
+
+
+  <style>
+    .main {
+      background: rgba(0, 0, 0, 0.1) url(Img/bg.jpg) no-repeat center center;
+      /*-webkit-background-size: cover;
+        /*-moz-background-size: cover;
+        /*-o-background-size: cover;*/
+      background-size: 100vmax;
+      background-position: top;
+      background-blend-mode: darken;
+      overflow-x: hidden;
+
+
+      font-size: 62.5%;
+
+    }
+
+
+
+
+    /*section intro*/
+
+
+    .intro h1 {
+      font-size: 12vw;
+      font-style: bold italic;
+      font-family: 'Times New Roman', Times, serif;
+      color: orangered;
+      padding-top: 6%;
+      padding-left: 40%;
+
+    }
+
+    .intro p {
+      font-size: 2vw;
+      font-style: bold italic;
+      font-family: 'Times New Roman', Times, serif;
+      color: black;
+      padding-top: 1rem;
+      padding-left: 40%;
+
+
+    }
+
+    /*section des*/
+
+    .des-box {
+      margin-top: 10rem;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+      background-color: white;
+      border-radius: 1rem;
+
+    }
+
+    .des {
+      color: black;
+
+      justify-content: center;
+      align-items: center;
+      font-size: 2vw;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding-top: 3rem;
+      padding-bottom: 2rem;
+      margin-left: 5%;
+      margin-right: 5%;
+
+
+
+
+    }
+
+    /*
+.des p, .des ul>li{
+  background-color:white;
+ 
+} */
+
+
+    .catgories {
+      width: cover;
+      padding-top: 15vw;
+      padding-bottom: 15.0vw;
+      display: flex;
+      text-align: center;
+      margin-right: 5%;
+      margin-left: 5%;
+      justify-content: center;
+      justify-content: space-evenly;
+      list-style: none;
+
+
+
+    }
+
+    .l-item img:hover {
+
+      box-shadow: 10px 10px 10px black;
+    }
+
+    .l-item p {
+      font-size: 5vw;
+      font-style: bold;
+      font-family: 'Times New Roman', Times, serif;
+      align-items: center;
+      justify-content: center;
+      color: red;
+
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+  <nav class="navbar h-nav-resp" id="navbar">
+    <div class="navbox">
+
+      <span>
+        <img class="logo" src="Img/logo.jpg">
+      </span>
+      <ul class="nav-list">
+        <li class="item ">
+          <a href="#home">Home</a>
+        </li>
+        <li class="item ">
+          <a href="#features">Categories</a>
+        </li>
+        <li class="item ">
+          <a href="#tip" onclick="tip()">Tips</a>
+        </li>
+        <li class="item ">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="sch v-class">
+      <form class="sform" name="newForm" method="get" onsubmit="formAction(this)">
+        <input id="search-input" class="Search" type="text" name="q" list="content" placeholder="search here..." />
+
+        <input class="Searchbtn btn" type="submit" name="search" value="Search">
+        </input>
+        <datalist id="content" class="d-list">
+
+        </datalist>
+
+      </form>
+    </div>
+
+    <div class="search-burger">
+      <i class="icon fa  fa-search "></i>
+    </div>
+
+  </nav>
+
+  <section class="main" id="home">
+    <div class=intro>
+      <h1>HEALTH JUNKIE</h1>
+      <p>Nature is a Hospital</p>
+      <p>Sun, Fresh air, Water, Exercise, Food and Rest are six doctors in it...</p>
+    </div>
+
+    <div class="des-box">
+      <div class="des ">
+        <p>
+          Health Junkie is here to help you in things related to:
+        </p>
+        <ul>
+          <li>Food benefits</li>
+          <li>Exercise benefits</li>
+          <li>Home remedies(Using natural things) </li>
+          <li>And some health tips(Bonus tip: Tap on "Tips" in navigation bar and get new tips..)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="features">
+    <div class="f-item" id="">
+      <ul class="catgories">
+
+        <li class="l-item first-feature ">
+          <a href="food.html">
+            <img class="" src="Img/Food_info.jpg" alt="" />
+          </a>
+          <p>Food Info</p>
+        </li>
+        <li class=" l-item feature">
+          <a href="exercise.html">
+            <img class="" src="Img/exercise.jpg" alt="" />
+          </a>
+          <p>Exercise</p>
+        </li>
+        <li class="l-item feature">
+          <a href="remedies.html">
+            <img class="" src="Img/natural_remedies.jpg" alt="" />
+          </a>
+          <p>Remedies</p>
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+
+    <form class="fitem" id="fitem" action="form.php" method="POST" >
+      <div class="heading">Contact</div>
+      <div class="pform">Name</div>
+      <div class="finput"><input type="text" name="name" required></div>
+      <div class="pform">Email</div>
+      <div class="finput"> <input type="email" name="email" required> </div>
+      <div class="pform">Phone</div>
+      <div class="finput"><input type="tel" pattern="[0-9]{10,12}" name="phone" required></div>
+      <div class="pform">Feedback</div>
+      <div class="finput "><textarea class="feedback" rows="4" cols="50" name="feedback" placeholder="Write feedback.."
+          required></textarea> </div>
+      <div class="finput b"><input class="btn" type="submit" name="submit"  value="Submit" onclick="contact()"/></div>
+
+    </form>
+  </section>
+
+  <div class="dtip">
+    <p class="tip">Tip for the day:
+      <span id=tip class="tip tipc" value=""> Eat healthy.. Do healthy.. Be healthy.. </span>
+    </p>
+  </div>
+  script
+  <script src="main.js"></script>
+</body>
+
+</html>

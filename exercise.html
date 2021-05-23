@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exercise Info</title>
+
+  <style>
+    .main {
+      background: rgba(0, 0, 0, 0.5) url(Img/exercise.jpg) no-repeat center center;
+      /*-webkit-background-size: cover;
+        /*-moz-background-size: cover;
+        /*-o-background-size: cover;*/
+      background-size: 135vw;
+      background-position: top;
+      background-blend-mode: darken;
+
+      scroll-behavior: smooth;
+
+    }
+
+    header {
+      width: 1000px;
+      position: -webkit-sticky;
+      position: -moz-sticky;
+      position: -o-sticky;
+      position: -ms-sticky;
+      position: sticky;
+      top: 0;
+      cursor: pointer;
+    }
+
+    /*section intro*/
+
+
+    .intro h1 {
+      font-size: 10vw;
+      font-style: bold italic;
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      padding-top: 6%;
+      padding-left: 35%;
+
+    }
+
+    .intro p {
+      font-size: 3.5vw;
+      font-style: bold italic;
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      padding-top: 3px;
+      padding-left: 30%;
+    }
+
+    /*section des*/
+
+    .des {
+      color: white;
+      justify-content: center;
+      align-items: center;
+      font-size: 3vw;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding-top: 4.5rem;
+
+      padding-left: 5rem;
+      margin-left: 5%;
+      margin-right: 5%;
+
+
+
+    }
+  </style>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar h-nav-resp" id="navbar">
+    <div class="navbox">
+
+      <span>
+        <img class="logo" src="Img/logo.jpg">
+      </span>
+      <ul class="nav-list">
+        <li class="item ">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="item ">
+          <a href="#features">Categories</a>
+        </li>
+        <li class="item ">
+          <a href="#tip" onclick="tip()">Tips</a>
+        </li>
+        <li class="item ">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="sch v-class">
+      <form class="sform" name="newForm" method="get" onsubmit="formAction(this)">
+        <input id="search-input" class="Search" type="text" name="q" list="content" placeholder="search here..." />
+
+        <input class="Searchbtn" type="submit" name="search" value="Search">
+        </input>
+        <datalist id="content" class="d-list">
+
+        </datalist>
+
+      </form>
+    </div>
+
+    <div class="search-burger">
+      <i class="icon fa fa-search"></i>
+    </div>
+
+  </nav>
+
+  <section class="main" id="home">
+    <div class=intro>
+      <h1>Exercise information</h1>
+      <p>Workout keeps you physically as well as mentally healthy.. </p>
+      <p></p>
+    </div>
+
+
+    <div class="des">
+      <div>
+        <p>
+          Know the benefits of different types of exercise like:
+        </p>
+        <ul>
+          <li>Gym exercise</li>
+          <li>Yoga</li>
+          <li>Normal exercise</li>
+          <li>And some health tips(Bonus tip: Tap on "Tips" in navigation bar and get new tips..)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="features-start" id="features"></div>
+    <div class="f-item ">
+      <ul class="path" id="features">
+
+        <li class="p-item first-feature">
+          <a href="#gym">
+            <img class="" src="Img/glogo.jpg" alt="" />
+          </a>
+          <p>Gym</p>
+        </li>
+        <li class="p-item feature">
+          <a href="#yoga">
+            <img class="#yoga" src="Img/ylogo.jpg" alt="" />
+          </a>
+          <p>Yoga</p>
+        </li>
+        <li class="p-item feature">
+          <a href="#normal-exercise">
+            <img class="" src="Img/nlogo.jpg" alt="" />
+          </a>
+          <p>Normal-exercise</p>
+        </li>
+      </ul>
+
+    </div>
+  </section>
+
+  <! Gym>
+    <section class="gym" id="gym">
+      <div>
+        <h1 class="f-heading">Gym</h1>
+      </div>
+
+      <! Shoulder>
+        <div class="f-content " id="shoulder">
+
+          <p>Shoulder Workout</p>
+          <ul>
+
+            <div class="f-des g-des">
+              <li>
+                Barbell Shoulder Press:
+
+                <div class="v-container">
+                  <video
+                    src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/HREFvw5NMjcghw0ij/videoblocks-muscular-athletic-man-training-shoulders-lifting-barbell-while-sitting-on-bench-during-outdoor-workout-confident-determined-bodybuilder-pumping-up-muscles-exercising-with-barbell-in-outdoo__0753bc4548c61215cf2db7c851af6f89__P360.mp4"
+                    class="vid" controls></video>
+
+                </div>
+
+                <div>Hold the barbell in a front-rack position (resting on the front of your shoulders), with your
+                  elbows
+                  pointing forward. Breathe, tighten your core, and press the barbell overhead. ... Engage your back
+                  muscles and with control, lower the barbell back to the front rack position. Repeat for eight to 10
+                  reps.
+
+                </div>
+            </div>
+            </li>
+
+            <div class="f-des g-des">
+              <li>
+                Dumbbell Shoulder Press:
+
+                <div class="v-container">
+                  <video
+                    src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/NL0L5N5Rgimkt8edi/videoblocks-bodybuilder-in-a-black-tank-top-performs-a-dumbbell-shoulder-press-exercise-sitting-in-a-chair_hsbuc5nqm__ede520c826dc12682bb401993e7fdeff__P360.mp4"
+                    class="vid" controls></video>
+
+                </div>
+
+                <div>
+                  Sit on an upright bench holding a dumbbell in each hand at shoulder height with your palms facing away
+                  from you. Keep your chest up and your core braced, and look straight forward throughout the move.
+                  Press
+                  the weights directly upwards until your arms are straight and the weights touch above your head.
+                </div>
+
+            </div>
+            </li>
+
+            <div class="f-des g-des">
+              <li>
+                Front raises:
+
+                <div class="v-container">
+                  <video
+                    src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/MPaEbz-/videoblocks-medium-shot-of-middle-aged-woman-in-sportswear-doing-front-raises-with-dumbbells-while-training-before-mirror-in-gym-arab-man-exercising-in-background_hzlcpldugm__4bf4591d0b69b129ef9b17ab3dc3f375__P360.mp4"
+                    class="vid" controls></video>
+
+                </div>
+
+                <div>
+                  Grab two dumbbells and stand up straight. While keeping your torso stationary, lift the dumbbells to
+                  the front. Lower the dumbbells back to the starting position, inhaling as you do so. Repeat for the
+                  desired number of reps.
+                </div>
+
+            </div>
+            </li>
+
+            <div class="f-des g-des">
+              <li>
+                Dumbbell Lateral Raise:
+
+                <div class="v-container">
+                  <video
+                    src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/rZJIMvhmliwmde8a6/videoblocks-muscular-sportsman-having-workout-with-dumbbells-handsome-power-athletic-man-in-training-pumping-up-muscles-with-dumbbells-strong-bodybuilder-with-beautiful-biceps_svgu8c3mie__807cb79626c79967f0f608d8fb2292a1__P360.mp4"
+                    class="vid" controls></video>
+
+                </div>
+
+                <div>
+                  Stand or sit with a dumbbell in each hand at your sides. Keep your back straight, brace your core, and
+                  then slowly lift the weights out to the side until your arms are parallel with the floor, with the
+                  elbow slightly bent.
+                </div>
+
+            </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <! chest>
+          <div class="f-content " id="chest">
+
+            <p>Chest Workout</p>
+            <ul>
+
+              <div class="f-des g-des">
+                <li>
+                  Bench Press:
+
+                  <div class="v-container">
+                    <video
+                      src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/2O0VXeG/videoblocks-close-up-image-of-man-doing-bench-press-at-the-gym_bqkova2nn__65603b349e5f8a8ddfbb28a7df5f587b__P360.mp4"
+                      class="vid" controls></video>
+
+                  </div>
+
+                  <div>
+                    Lie on your back on a flat bench. Grip a barbell with hands slightly wider than shoulder-width.
+                    Press your feet firmly into the ground and keep your hips on the bench throughout the entire
+                    movement.
+                    Slowly lift bar off rack, if using, and lower the bar to the chest, allowing elbows to bend out to
+                    the side.
+                    Stop lowering when elbows are just below the bench. Press feet into the floor as you push the bar
+                    back up to return to starting position.
+                    Perform 5-10 reps, depending on weight used. Perform up to three sets.
+
+                  </div>
+              </div>
+              </li>
+
+              <div class="f-des g-des">
+                <li>
+                  Incline Bench Press:
+
+                  <div class="v-container">
+                    <video
+                      src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/HREFvw5NMjcghw0ij/videoblocks-athletic-fit-man-performing-barbell-chest-press-on-incline-bench-during-workout-in-outdoor-gym-confident-bodybuilder-at-bench-press-lifting-barbell-on-incline-bench-and-flexing-chest-muscl__8207aacc92cb33d38420ea2ebc45f87a__P360.mp4"
+                      class="vid" controls></video>
+
+                  </div>
+
+                  <div>
+                    Position your body on an incline bench on a 30-45 degree angle. Grab a barbell with an overhand grip
+                    that's shoulder-width apart and hold it above your chest. Extend arms upward, locking out elbows.
+                    Lower the bar straight down in a slow, controlled movement to your chest.
+                  </div>
+
+              </div>
+              </li>
+
+              <div class="f-des g-des">
+                <li>
+                  Decline Dumbbell Press:
+
+                  <div class="v-container">
+                    <video
+                      src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/HREFvw5NMjcghw0ij/videoblocks-determined-bodybuilder-exercising-with-heavy-dumbbells-during-outdoor-workout-confident-muscular-built-man-doing-decline-dumbbell-bench-press-for-chest-muscle-on-weight-bench-training-outd__9f8e2d429feb5b7cd31f74be39bcc8e6__P360.mp4"
+                      class="vid" controls></video>
+
+                  </div>
+
+                  <div>
+                    Pick up the dumbbells off the floor using a neutral grip (palms facing in). Position the ends of the
+                    dumbbells in your hip crease, and sit down on the edge of an decline bench.
+                    To get into position, lay back and keep the weights close to your chest. Once you are in position,
+                    take a deep breath, and press the dumbbells to lockout at the top.
+                    Slowly lower the dumbbells under control as far as comfortably possible (the handles should be about
+                    level with your chest).
+                    Contract the chest and push the dumbbells back up to the starting position.
+                    Repeat for the desired number of repetitions.
+                  </div>
+
+              </div>
+              </li>
+
+              <div class="f-des g-des">
+                <li>
+                  Cable Crossover:
+
+                  <div class="v-container">
+                    <video
+                      src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/HREFvw5NMjcghw0ij/videoblocks-brutal-handsome-bodybuilder-working-out-training-in-outdoor-gym-gaining-weight-pumping-up-muscles-on-his-chest-with-cable-crossover-muscular-strong-man-doing-exercise-on-cable-crossover-ou__ac40c86cccfadf64be8bf02017360e0c__P360.mp4"
+                      class="vid" controls></video>
+
+                  </div>
+
+                  <div>
+                    Set the handles at both ends of the pulleys at the highest level. Stand in the centre of the machine
+                    with feet shoulder-width apart. Bend your torso forwards slightly, keeping your spine neutral and
+                    back straight, and bend your elbows slightly as well, with your wrists facing the floor. Keeping
+                    your core engaged, pull both handles down and across your body. Squeeze your chest muscles in this
+                    fully contracted position. Slowly reverse to the start
+                    position, keeping the bend in your elbows throughout.
+                  </div>
+
+              </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <! Biceps>
+            <div class="f-content " id="biceps">
+
+              <p>Biceps Workout</p>
+              <ul>
+
+                <div class="f-des g-des">
+                  <li>
+                    Barbell Biceps Curls:
+
+                    <div class="v-container">
+                      <video
+                        src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/NL0L5N5Rgimkt8edi/videoblocks-bodybuilding-in-the-gym-muscular-man-perform-exercises-with-barbell-biceps-slider_r0t9ag-fz__05a0ff586bf70df8ba469a8ea3529298__P360.mp4"
+                        class="vid" controls></video>
+
+                    </div>
+
+                    <div>
+                      Stand up straight while holding a barbell in a shoulder-width grip. Contract your biceps to curl
+                      the weight forward. Your upper arms should remain stationary during this process. Continue moving
+                      the barbell until the biceps are fully contracted and the bar is at shoulder height. Hold this
+                      position for a second and then squeeze your biceps. Bring the barbell back to the starting
+                      position. Repeat for the desired number of reps.
+
+                    </div>
+                </div>
+                </li>
+
+                <div class="f-des g-des">
+                  <li>
+                    Dumbbell Biceps Curls:
+
+                    <div class="v-container">
+                      <video
+                        src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/NL0L5N5Rgimkt8edi/videoblocks-weight-lifting-in-the-gym-young-muscular-man-performs-training-for-biceps-with-dumbbells-close-up_bwzdfcfzsm__7aa8f3a2470c23456233b832f690b040__P360.mp4"
+                        class="vid" controls></video>
+
+                    </div>
+
+                    <div>
+                      Hold a dumbbell in each hand and stand with your feet as wide apart as your hips. Let your arms
+                      hang down at your sides with your palms forward. Pull your abdominals in, stand tall, and keep
+                      your knees slightly bent. Curl both arms upward until they're in front of your shoulders. Slowly
+                      lower the dumbbells back down.
+                    </div>
+
+                </div>
+                </li>
+
+                <div class="f-des g-des">
+                  <li>
+                    Standing Cable Curl:
+
+                    <div class="v-container">
+                      <video
+                        src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/V1xq1AADx/young-woman-flexing-muscles-on-cable-gym-machine_bvtr4mhg__925a09133131118b8d73b47f21186d0b__P360.mp4"
+                        class="vid" controls></video>
+
+                    </div>
+
+                    <div>
+                      Stand up with your torso upright while holding a cable curl bar that is attached to a low pulley.
+                      While holding the upper arms stationary, curl the weights while contracting the biceps as you
+                      breathe out. Slowly begin to bring the curl bar back to starting position as your breathe in.
+                    </div>
+
+                </div>
+                </li>
+
+                <div class="f-des g-des">
+                  <li>
+                    Concentration Curl:
+
+                    <div class="v-container">
+                      <video
+                        src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/msqd2XJ/close-up-of-unrecognizable-sportsman-doing-dumbbell-concentration-curl_hajeqqpm__a225281522c2f7a412a6b577593cee81__P360.mp4"
+                        class="vid" controls></video>
+
+                    </div>
+                    Sit down on a bench holding a dumbbell in your left hand, and rest your elbow on the inside of your
+                    left thigh. Squeeze the left biceps and bring the dumbbell toward your chest. Lower the left arm to
+                    the starting position, repeat, and then switch arms.
+                </div>
+                </li>
+
+                <div class="f-des g-des">
+                  <li>
+                    Hammer Curl:
+
+                    <div class="v-container">
+                      <video
+                        src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/49EwKH5deijotr386/videoblocks-man-flexes-his-hands-with-dumbbells-training-his-biceps-on-a-black-background-in-the-studio_hdld2ttyox__d842ab173093ce530a0bc913851ab70f__P360.mp4"
+                        class="vid" controls></video>
+
+                    </div>
+                    Stand up straight with a dumbbell in each hand, holding them alongside you. Your palms should face
+                    your body. ...
+                    Keep your biceps stationary and start bending at your elbows, lifting both dumbbells.
+                    Lift until the dumbbells reach shoulder-level, but don't actually touch your shoulders.
+                </div>
+                </li>
+
+
+              </ul>
+
+            </div>
+
+            <! Triceps>
+              <div class="f-content " id="triceps">
+
+                <p>Triceps Workout</p>
+                <ul>
+
+                  <div class="f-des g-des">
+                    <li>
+                      Cable Rope Tricep Pushdown:
+
+                      <div class="v-container">
+                        <video
+                          src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/H5BOVymHiplawzr0/videoblocks-athlete-doing-exercises-on-the-triceps-on-the-machine-in-the-gym-girl-in-sportswear-on-training_s8zkb9dg0__0a7857a711c4655d9a160f9f35280497__P360.mp4"
+                          class="vid" controls></video>
+
+                      </div>
+
+                      <div>
+                        Attach a rope to the cable station’s high pulley. Grab the handle with an overhand grip, keeping
+                        your arms bent and your hands shoulder-width apart. Tuck your upper arms toward your sides.
+                        Keeping your upper arms fixed in place, push the bar down until your elbows are locked. Return
+                        to the starting position and repeat.
+                      </div>
+                  </div>
+                  </li>
+
+                  <div class="f-des g-des">
+                    <li>
+                      One-Arm Overhead Extension:
+
+                      <div class="v-container">
+                        <video
+                          src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/--DrDo3/fit-muscular-man-uses-his-dumbbell-to-work-his-triceps_n2uk4y0ll__4b1ae01c394cb47015e47f995bd89464__P360.mp4"
+                          class="vid" controls></video>
+
+                      </div>
+
+                      <div>
+                        Sit perfectly upright on a workout bench and grab a dumbbell with one hand. Holding the
+                        dumbbell, lift your arm slightly behind your head with your elbow bent. Extend your elbow until
+                        your arm is straight overhead.
+                      </div>
+
+                  </div>
+                  </li>
+
+                  <div class="f-des g-des">
+                    <li>
+                      Triceps Kickback:
+
+                      <div class="v-container">
+                        <video
+                          src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/H5BOVymHiplawzr0/videoblocks-muscular-athletic-woman-exercising-with-dumbbells-in-the-gym-exercises-for-the-triceps-and-back_bvnz8_vdp__bddc82914444ed371a6da02d2e4cbce6__P360.mp4"
+                          class="vid" controls></video>
+
+                      </div>
+
+                      <div>
+                        Holding a dumbbell, find a bench and kneel with one foot still on the ground. Bend over and
+                        place a palm on the bench to support yourself and hold the dumbbell with the other hand. With
+                        your palm facing in toward your body, raise your elbow to waist height and bring it tight to
+                        your side. Extend your hand back to create a straight arm, keeping your elbow still, and hold
+                        for a moment before slowly returning your arm to a 90 degree angle
+                      </div>
+
+                  </div>
+                  </li>
+
+                  <div class="f-des g-des">
+                    <li>
+                      Tricep Dips:
+
+                      <div class="v-container">
+                        <video
+                          src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/B04Gfy1teiz3sdqe6/videoblocks-strong-powerful-male-exercises-for-pectoral-muscles-and-triceps-with-dips-close-up-relief-of-the-body_rbe2ueegm__37d0ccd63afbc51b2e5e5ddbd79d7cc5__P360.mp4"
+                          class="vid" controls></video>
+
+                      </div>
+
+                      <div>
+                        Grab the parallel bars on a dip station and push yourself up into the top position. Your arms
+                        should be straight, shoulders down and back, abs engaged, body straight, and ankles crossed.
+                        Keeping your forearms vertical and your elbows at your sides , slowly lower yourself under
+                        control. Stop when your upper arms are parallel with the floor. Pause, then push yourself back
+                        up to the starting position.
+                      </div>
+
+                  </div>
+                  </li>
+
+                </ul>
+
+              </div>
+
+              <! Back>
+                <div class="f-content " id="back">
+
+                  <p>Back Workout</p>
+                  <ul>
+
+                    <div class="f-des g-des">
+                      <li>
+                        Deadlift:
+
+                        <div class="v-container">
+                          <video
+                            src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/VN__8Q8ueijkccu5c/videoblocks-muscular-men-lifting-deadlift-in-the-crossfit-gym_blmy43jbbm__3b5f23e1bdcf86cc277cf2211a8670bd__P360.mp4"
+                            class="vid" controls></video>
+
+                        </div>
+
+                        <div>
+                          Grab the bar. Bend over without bending your legs. Bend your knees. Drop into position by
+                          bending your knees until your shins touch the bar. Lift your chest. Straighten your back by
+                          raising you chest. Pull.
+
+                        </div>
+                    </div>
+                    </li>
+
+                    <div class="f-des g-des">
+                      <li>
+                        Seated Row:
+
+                        <div class="v-container">
+                          <video
+                            src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/NDcUKEpwx/videoblocks-handsome-athletic-african-man-exercising-on-seated-low-row-machine-at-gym_hpygx7wan__82c015b029e6f6abc0f04fac2548f88e__P360.mp4"
+                            class="vid" controls></video>
+
+                        </div>
+
+                        <div>
+                          Exhale and pull the band until your hands are over your thighs, keeping your elbows tucked in
+                          and your back neutral. Inhale and slowly extend your arms. Complete a set of 12 to 15 reps.
+                        </div>
+
+                    </div>
+                    </li>
+
+                    <div class="f-des g-des">
+                      <li>
+                        T-Bar Row:
+
+                        <div class="v-container">
+                          <video
+                            src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/GTYSdDW/the-guy-is-engaged-in-a-gym-on-the-exercise-machine-lift-heavy-weight-with-bar_rj4milj__c0684cc8fd28d0b22af116f1abdfc0d4__P360.mp4"
+                            class="vid" controls></video>
+
+                        </div>
+
+                        <div>
+                          Bend over at the hips until your torso is about a 45-degree angle to the floor with arms
+                          extended. Hook a V-grip handle under the bar and hold with both hands. Keeping your lower back
+                          in its natural arch, squeeze your shoulder blades together and pull the bar until the plates
+                          touch your chest.
+                        </div>
+
+                    </div>
+                    </li>
+
+                    <div class="f-des g-des">
+                      <li>
+                        Lat Pull-Down :
+
+                        <div class="v-container">
+                          <video
+                            src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/HREFvw5NMjcghw0ij/videoblocks-rear-view-of-muscular-man-working-out-on-cable-lat-pulldown-machine-in-outdoor-gym-healthy-lifestyle-bodybuilder-exercising-and-flexing-muscles-using-shoulder-pulldown-machine-outdoors_rxt__c77219ba2db2000b9c57d2cadf6d0795__P360.mp4"
+                            class="vid" controls></video>
+
+                        </div>
+
+                        <div>
+                          Sit at a lat pulldown station and grab the bar with an overhand grip that's just beyond
+                          shoulder
+                          width. Your arms should be completely straight and your torso upright. Pull your shoulder
+                          blades
+                          down and back, and bring the bar to your chest. Pause, then slowly return to the starting
+                          position.
+                        </div>
+
+                    </div>
+                    </li>
+
+                    <div class="f-des g-des">
+                      <li>
+                        Single-Arm Dumbbell Row :
+
+                        <div class="v-container">
+                          <video
+                            src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/rj3VhjeXiok7px9t/videoblocks-woman-doing-back-exercises-with-dumbbells-for-development-of-dorsal-part-having-inhaled-the-athlete-pulls-her-arm-up-pulling-her-shoulder-back-then-releases-the-dumbbell-back-should-be-str__3347db01dfda1efe6933b67d4d07638a__P360.mp4"
+                            class="vid" controls></video>
+
+                        </div>
+
+                        <div>
+                          Stand to the right of your weight bench, holding a dumbbell in your right hand with your palm
+                          facing in. Place your left knee and your left hand on top of the bench for support. Let your
+                          right arm hang down and a bit forward. Pull your abdominals in and bend forward from the hips
+                          so
+                          that your back is naturally arched and
+                          roughly parallel to the floor, and your right knee is slightly bent. Tilt your chin toward
+                          your
+                          chest so that your neck is in line with the rest of your spine. Pull your right arm up until
+                          your elbow is pointing to the ceiling, your upper arm is parallel
+                          to the floor, and your hand comes to the outside of the ribcage. Lower the weight slowly back
+                          down.
+                        </div>
+
+                    </div>
+                    </li>
+
+                  </ul>
+                </div>
+                <! Legs>
+                  <div class="f-content " id="legs">
+
+                    <p>Legs Workout</p>
+                    <ul>
+
+                      <div class="f-des g-des">
+                        <li>
+                          Barbell Squat:
+
+                          <div class="v-container">
+                            <video
+                              src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/B04Gfy1teiz3sdqe6/videoblocks-handsome-muscular-man-exercise-squats-in-the-gym_s9wyi4mplg__4ea1905c6c85a48916792993d3abf3d9__P360.mp4"
+                              class="vid" controls></video>
+
+                          </div>
+
+                          <div>In a squat rack or cage, grasp the bar as far apart as is comfortable and step under
+                            it. Place it on your lower traps, squeeze your shoulder blades together, push your elbows
+                            up and nudge the bar out of the rack. Take a step or two back and stand with your feet at
+                            shoulder width and your toes turned slightly out. Take a deep breath and bend your hips
+                            back, then bend your knees to lower your body as far as you can without losing the arch in
+                            your lower back. Push your knees out as you descend. Drive vertically with your hips to
+                            come back up, continuing to push your knees out.
+                          </div>
+                      </div>
+                      </li>
+
+                      <div class="f-des g-des">
+                        <li>
+                          Leg Press:
+
+                          <div class="v-container">
+                            <video
+                              src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/VN__8Q8ueijkccu5c/man-doing-leg-press-at-the-gym_h0xfqgvfi__e3ce5c4da2cff4eb66ac5f1479476ed5__P360.mp4"
+                              class="vid" controls></video>
+
+                          </div>
+
+                          <div>
+                            Sit down on a leg press machine and place your legs on the platform in front of you. Your
+                            feet should be positioned approximately a foot to one and half feet apart. Lower the
+                            safety bars holding the platform in place. Press the platform all the way up until your
+                            legs are fully extended, without locking your knees. This is the starting position. As you
+                            inhale, slowly lower the platform until your upper and lower legs make a 90-degree angle.
+                            Push with the heels of your feet and use your quadriceps to go back to the starting
+                            position. Exhale as you do so. Repeat for the number of reps in your set. Make sure that
+                            the safety pins are locked properly once you have finished.
+                          </div>
+
+                      </div>
+                      </li>
+
+                      <div class="f-des g-des">
+                        <li>
+                          Walking Lunge:
+
+                          <div class="v-container">
+                            <video
+                              src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/Vd3bj2jPe/fitness-woman-doing-lunges-exercise-with-small-dumbbells-asian-woman-doing-lunges-exercise-outdoor-sport-woman-exercising-outdoors-outdoor-fitness-workout-woman-exercise-legs_rmbsomvkx__728507279b14e603f2f220afab73adaa__P360.mp4"
+                              class="vid" controls></video>
+
+                          </div>
+
+                          <div>
+
+                            Step forward with first leg. Land on heel then forefoot. Lower body by flexing knee and
+                            hip of front leg until knee of rear leg is almost in contact with floor. Stand on forward
+                            leg with assistance of rear leg. Lunge forward with opposite leg. Repeat by alternating
+                            lunge with opposite legs.
+                          </div>
+
+                      </div>
+                      </li>
+
+
+
+                    </ul>
+
+                  </div>
+
+
+                  </div>
+
+    </section>
+
+
+    <! Yoga>
+      <section class="yoga" id="yoga">
+        <div>
+          <h1 class="f-heading">Yoga</h1>
+        </div>
+
+        <! -->
+          <div class="f-content " id="surya-namaskar">
+            <ul>
+
+              <div class="f-des g-des">
+                <li>
+                  Surya Namaskar:
+
+                  <div class="v-container">
+                    <video
+                      src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/--DrDo3/videoblocks-young-woman-doing-yogic-sun-salutation-pose-on-mat-on-a-green-screen-chroma-key_rysj6khag__eb8cdf0688201e6dc3729a41f98eb3fa__P360.mp4"
+                      class="vid" controls></video>
+
+                  </div>
+
+                  <div>
+                    <ol type="1">
+                      <li>
+                        Pranamasana:
+                        Also known as prayer pose, Pranamasana is the start of your Surya Namaskar. Stand upright on
+                        your mat with your both feet closely aligned. Inhale deeply, expanding your chest and relaxing
+                        your shoulders.
+
+                        While you inhale, raise your arms from the sides. And as you exhale, join your palms together as
+                        if praying in front of deity. This is the Pratham Namaskar or first salutation towards the sun.
+                      </li>
+                      <li>
+                        Hastauttanasana:
+                        Keeping the palms joined in the previous prayer position, breathe in and lift your arms up and
+                        bend backwards slightly. Your biceps should lie close to your ears. This posture is to loosen up
+                        your body by stretching the entire body backwards, standing at your tip toes.
+                      </li>
+                      <li>
+                        Hasta Padasana:
+                        Now breathe out, and bend forward from the waist. Go down and touch you’re the ground but
+                        keeping
+                        your spine erect. Do this as your exhale slowly and completely.
+                      </li>
+                      <li>
+                        Ashwa Sanchalanasana:
+                        Now breathe in, and stretch your body parallely to the ground. Keep your hands to the side, and
+                        bring your right knee towards the right part of the chest and let your left leg stretch behind.
+                        Look up.
+                      </li>
+                      <li>
+                        Dandasana:
+                        Now as your inhale, fling your right leg also backwards aligning your entire body parallely to
+                        the
+                        ground.
+                      </li>
+                      <li>
+                        Ashtanga Namaskara:
+                        This is also known as giving salutations using eight parts or points. After staying in
+                        Dandasana,
+                        gently bring down your knees towards the floor and exhale. Now bring your chin to rest on the
+                        floor, keep your hops elevated in the air. Hence, your eight parts which are two hands, two
+                        knees,
+                        chin and chest will rest on the floor while your hip stays elevated in the air.
+                      </li>
+
+                      <li>
+                        Bhujangasana:
+                        This is also known as Cobra pose. This is simply aligning your chest and torso 90 degrees to the
+                        ground, keeping your legs and mid-section flat on the ground. Make sure you use your hands to
+                        support your body and are not tempted to transfer your entire weight onto them.
+                      </li>
+                      <li>
+                        Parvatasana:
+                        Again, return to the parvatasana from bhujangasana. Keep your palm and feet where they are, and
+                        slowly raise your mid-section. Breathe out as you enter parvatasana.
+                      </li>
+                      <li>
+                        Ashwa Sanchalanasana:
+                        Now from Parvatasana, return to the ashwa sanchalanasana. But this time, we do the opposite of
+                        what we did in the 4th step. Procedure- Bring your right foot forward, while resting the left
+                        foot
+                        behind, at its original position.
+                      </li>
+                      <li>
+                        Hasta Padasana:
+                        Now slowly bring your left foot forward, next to the right foot as you exhale. Keeping the
+                        position of your hands intact, lift yourself up to slowly enter Hasta Padasana.
+                      </li>
+                      <li>
+                        Hastauttanasana:
+                        Now inhale, raise your hands upward, and bend backward to enter Ardha Chakra Asana.
+                      </li>
+                      <li>
+                        Pranama asana:
+                        Finally, exhale and stand in a relaxed manner in the namaskara mudra. Feel the positive
+                        vibrations
+                        in your body. This is how you complete one repetition of Surya Namaskar. Twelve repetitions of
+                        this holistic exercise are said to yield maximum benefit.
+                      </li>
+                    </ol>
+                  </div>
+                </li>
+              </div>
+
+              </u>
+          </div>
+
+          <div class="f-content " id="padmasana">
+            <ul>
+
+              <div class="f-des g-des">
+                <li>
+                  Padmasana :
+
+                  <div class="v-container">
+                    <video
+                      src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/Hc_TvUoHMjcyusz29/videoblocks-beautiful-woman-meditating-in-lotus-position_bfvaib068__b713a9508c70d7cde52f1ad2eefd9ec5__P360.mp4"
+                      class="vid" controls></video>
+
+                  </div>
+
+                  <div>
+                    Initiate the pose by sitting down on the floor with your legs straight and stretched out in front of
+                    you. Now gently bend the knees and bring the lower leg into a cradle. Make use of your hands to
+                    gently place the leg on the left thigh. Now slowly repeat the same with the other leg too
+                  </div>
+                </li>
+              </div>
+            </ul>
+          </div>
+
+          <div class="f-content " id="tadasana">
+            <ul>
+
+              <div class="f-des g-des">
+                <li>
+                  Tadasana:
+
+                  <div class="v-container">
+                    <video
+                      src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/HEA-fdBPiqmr4hqr/videoblocks-woman-in-red-smiwsuit-practicing-yoga-fitness-exercise-at-the-beach-before-sunrise-in-morning_roh8rgjmv__ce4549398b7e2fb973e294e22c37b30a__P360.mp4"
+                      class="vid" controls></video>
+
+                  </div>
+
+                  <div>
+                    Breathe in and raise your toes gently and try to balance your body on your heels. Stretch your
+                    shoulders, arms and chest upwards while your toes bear your body weight. Feel the stretch in your
+                    body from the head to the feet. Hold this pose for about 5 to 10 seconds and then gently exhale.
+                  </div>
+                </li>
+              </div>
+
+            </ul>
+          </div>
+
+
+          <div class="f-content " id="vrikshasana">
+            <ul>
+              <div class="f-des g-des">
+                <li>
+                  Vrikshasana:
+
+                  <div class="v-container">
+                    <video
+                      src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/Hc_TvUoHMjcyusz29/videoblocks-woman-practicing-yoga-tree-pose_ht8o3dkfv__8471d6750c44dbcdc4b081c5d70a569a__P360.mp4"
+                      class="vid" controls></video>
+
+                  </div>
+
+                  <div>
+                    Stand absolutely erect with your arms to your side (Tadasana). Lift your left leg, fold the left
+                    knee and place it on the right thigh, as high as possible. The heel of your left foot should be
+                    facing upwards and the toes should be facing the ground. Shift your body weight on your right leg
+                    and stand erect.
+                  </div>
+                </li>
+              </div>
+            </ul>
+          </div>
+
+          <div class="f-content " id="pranayama">
+            <ul>
+              <div class="f-des g-des">
+                <li>
+                  Pranayama:
+
+                  <div class="v-container">
+                    <video
+                      src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/SNv7Pyhimz0q0vg/videoblocks-caucasian-blonde-woman-practicing-yoga-exercise-sitting-in-lotus-pose-performing-alternate-nostril-breathing-technique-indoors-making-nadi-shodhana-pranayama-therapeutic-exercise-grey-couch-on_bndfjumwu__9429012ff4b19eaccc71a96d5a411202__P360.mp4"
+                      class="vid" controls></video>
+
+                  </div>
+
+                  <div>
+                    First inhale with left nostril and exhale with right one, then inhale with right nostril and exhale
+                    with left nostril. Later continue the same process i.e. inhaling & exhaling with left and right
+                    nostrils alternately. Further switch to fast breathing by increasing the speed of breathing.
+                  </div>
+                </li>
+              </div>
+
+
+            </ul>
+
+          </div>
+      </section>
+
+      <! Normal exercise>
+        <section class="normal-exercise" id="normal-exercise">
+          <div>
+            <h1 class="f-heading" id="normal-exercise"> Normal exercise</h1>
+          </div>
+
+          <! -->
+            <div class="f-content " id="push-up">
+
+              <ul>
+
+                <div class="f-des g-des ">
+                  <li>
+                    Push-Up:
+
+                    <div class="v-container">
+                      <video
+                        src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/B04Gfy1teiz3sdqe6/videoblocks-a-strong-man-performs-push-ups-from-the-floor-with-all-his-strength-a-pumped-up-man-does-push-ups-in-the-gym_rt5eing1v__00f422b532954fba11e7399238844add__P360.mp4"
+                        class="vid" controls></video>
+
+                    </div>
+
+                    <div>
+                      Get down on all fours, placing your hands slightly wider than your shoulders.
+                      Straighten your arms and legs.
+                      Lower your body until your chest nearly touches the floor.
+                      Pause, then push yourself back up.
+                      Repeat.
+
+
+                    </div>
+                  </li>
+                </div>
+              </ul>
+            </div>
+
+            <div class="f-content " id="squats">
+
+              <ul>
+                <div class="f-des g-des">
+                  <li>
+                    Squats:
+
+                    <div class="v-container">
+                      <video
+                        src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/Vd3bj2jPe/videoblocks-sport-woman-training-outdoor-on-athletics-track-sporty-woman-exercising-in-sportswear-at-stadium_swus9mo6b__6a923ce80d4fb1266a6d27c3f0ca0eca__P360.mp4"
+                        class="vid" controls></video>
+
+                    </div>
+
+                    <div>
+                      Stand straight with feet hip-width apart. Tighten your stomach muscles. Lower down, as if sitting
+                      in an invisible chair. Straighten your legs to lift back up. Repeat the movement.
+                    </div>
+                  </li>
+                </div>
+
+              </ul>
+            </div>
+
+            <div class="f-content " id="pull-up">
+
+              <ul>
+
+                <div class="f-des g-des">
+                  <li>
+                    Pull-Up:
+
+                    <div class="v-container">
+                      <video
+                        src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/HWdWOg4x-j2movvk9/videoblocks-athlete-does-pull-up-on-the-crossbar-in-gym_h7m2zfjngq__1fe08e0c6904e3ce180c94e41e48ff8c__P360.mp4"
+                        class="vid" controls></video>
+
+                    </div>
+
+                    <div>
+                      Start with your hands on the bar approximately shoulder-width apart with your palms facing
+                      forward. With arms extended above you, stick your chest out and curve your back slightly. Pull
+                      yourself up towards the bar using your back until the bar is at chest level while breathing out.
+                    </div>
+
+
+                  </li>
+                </div>
+              </ul>
+            </div>
+
+            <div class="f-content " id="crunches">
+
+              <ul>
+
+                <div class="f-des g-des">
+                  <li>
+                    Crunches:
+
+                    <div class="v-container">
+                      <video
+                        src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/MPaEbz-/videoblocks-pan-of-seductive-sportswoman-with-fit-body-doing-crunches-of-floor-of-brightly-lit-gym_ssfcayix6x__50cd540eb8dfd49ddde3ab0c53933e40__P360.mp4"
+                        class="vid" controls></video>
+
+                    </div>
+
+                    <div>
+                      Lie down on your back. Plant your feet on the floor, hip-width apart. Bend your knees and place
+                      your arms across your chest. Contract your abs and inhale.
+                      Exhale and lift your upper body, keeping your head and neck relaxed.
+                      Inhale and return to the starting position.
+                    </div>
+                  </li>
+                </div>
+
+
+              </ul>
+
+            </div>
+
+            <div class="f-content " id="skippings">
+
+              <ul>
+
+                <div class="f-des g-des">
+                  <li>
+                    Skippings:
+
+                    <div class="v-container">
+                      <video
+                        src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/rj3VhjeXiok7px9t/videoblocks-athletic-woman-is-jumping-rope-wearing-sportswear-indoor-sportswoman-is-training-hard-at-the-gym_suzyspeetb__dc25e3239a4b2d389761fd8f8e586607__P360.mp4"
+                        class="vid" controls></video>
+
+                    </div>
+
+                    <div>
+                      Grab a handle in each hand and start with the rope behind you, so it's right at your heels and
+                      jump over it. As the
+                      rope swings up overhead, bend your knees slightly. Once you're at a comfortable speed, your wrists
+                      can do all the work. As you hop, be sure to stay on the balls of your feet.
+                    </div>
+                  </li>
+                </div>
+
+
+              </ul>
+
+            </div>
+
+            <div class="f-content " id="glute-bridge">
+
+              <ul>
+
+                <div class="f-des g-des">
+                  <li>
+                    Glute bridge:
+
+                    <div class="v-container">
+                      <video
+                        src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/Stw4Y28Bippgedql/bridge-pose-sporty-woman-doing-fitness-workout_hnhfwugp__4b34307e0c6d518d3da1a6c17566c193__P360.mp4"
+                        class="vid" controls></video>
+
+                    </div>
+
+                    <div>
+                      Start by lying on the floor with your knees bent, feet flat on the ground, and arms straight at
+                      your sides with your palms facing down. Pushing through your heels, raise your hips off the ground
+                      by squeezing your core, glutes, and hamstrings. Your upper back and shoulders should still be in
+                      contact with the ground, and your core down to your knees should form a straight line. Pause 1–2
+                      seconds at the top and return to the starting position.
+                    </div>
+                  </li>
+                </div>
+
+
+              </ul>
+
+            </div>
+
+
+        </section>
+
+        <section class="contact" id="contact">
+
+          <form class="fitem" action="form.php" method="POST">
+            <div class="heading">Contact</div>
+            <div class="pform">Name</div>
+            <div class="finput"><input type="text" name="name" required></div>
+            <div class="pform">Email</div>
+            <div class="finput"> <input type="email" name="email" required> </div>
+            <div class="pform">Phone</div>
+            <div class="finput"><input type="tel" pattern="[0-9]{10,12}" name="phone" required></div>
+            <div class="pform">Feedback</div>
+            <div class="finput "><textarea class="feedback" rows="4" cols="50" name="feedback" placeholder="Write feedback.."
+                required></textarea> </div>
+            <div class="finput b"><input class="btn" type="submit" name="submit"  value="Submit" /></div>
+      
+      
+          </form>
+        </section>
+        
+        <div class="dtip">
+          <p class="tip">Tip for the day:
+            <span id=tip class="tipc" value=""> Eat healthy.. Do healthy.. Be healthy.. </span>
+          </p>
+        </div>
+
+        <script src="main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
